@@ -25,4 +25,10 @@ const myFunction = function(){
 }
 
 
+// Stack (Primitive), Heap (Non-Primitive)
 
+let myName = "Sourabh Kaushik"
+let anotherName = myName
+anotherName = "Kaushik Sourabh"
+console.log(anotherName)
+console.log(myName);
