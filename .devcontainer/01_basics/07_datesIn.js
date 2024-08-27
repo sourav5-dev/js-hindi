@@ -24,7 +24,7 @@ let myTimeStamp = Date.now()
 // console.log(Math.floor(Date.now()/1000)); // get the second of time till 1970
 
 let newDate = new Date()
-  console.log(newDate);
+//  console.log(newDate);
 console.log(newDate.getDate());
 
 
