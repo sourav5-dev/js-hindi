@@ -73,8 +73,16 @@ const course = {
 const {courseInsructor : instructor} = course
 console.log(instructor);
 
-const navbar = () => {
 
-}
+// {
+//     "name": "sourabh",
+//     "coursename" : "js", 
+//     "price" : "free"
+// }
 
-navbar(company =  "sourabh")
+
+[
+    {},
+    {},
+    {}
+]
