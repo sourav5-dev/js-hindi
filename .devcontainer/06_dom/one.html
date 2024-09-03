@@ -1,19 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-        .bg-black{
-            background-color: #212121;;
+    <link rel="stylesheet" href="styles.css">
+    <!-- <style>
+        .container{
+            background-color: #006AC3;
         }
-    </style>
-</head>
-<body>
-    <div class="bg-black">
-        <h1 class="heading">Dom Learning</h1>
-        <p>Lorem ipsum dolor sit amet.</p>
+      nav {
+        background-color: #006AC3;
+        color: #fff;
+      margin-left: 5%;
+      margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+nav h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 40px;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+
+ nav li {
+    padding-left: 15px;
+    padding-top: 15px;
+ }
+
+ nav li a{
+    text-decoration: none;
+    color: #fff;
+ }
+nav .nav-search {
+    margin-top: 5px;
+    flex: 1;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+} 
+
+ nav .nav-search input {
+    flex: 1;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    height: 35px;
+    border-right: 0;
+ } 
+
+ nav .nav-search button {
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    height: 39px;
+    border-left: 0;
+ } 
+ h1, a {
+    color: #fff;
+    text-decoration: none;
+ }
+
+
+    </style> -->
+  </head>
+  <body>
+    <div class="container">
+        <nav>
+            <h1><a routerLink="/">RBC</a></h1>
+            <div class="nav-search">
+              <input type="text" placeholder="search for Products" />
+              <button>Search</button>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#">Seller</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Cart(0)</a></li>
+              </ul>
+            </div>
+          </nav>
     </div>
-</body>
+    <div class="bg-black">
+      <h1 class="heading">Dom Learning</h1>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+  </body>
 </html>
